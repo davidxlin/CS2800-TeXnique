@@ -73,7 +73,7 @@ let problems = [
 	},
 	{
 		"title": "Hoeffding's Inequality",
-		"description": "variance mogs",
+		"description": "extremely useful unlike myself",
 		"latex": String.raw`\Pr(X-\mathbb E[X] \geq t) \leq \exp \left(-\frac{2t^2}{\sum_{i=1}^n (b_i-a_i)^2}\right)`
 	}
 ];
