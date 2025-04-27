@@ -54,7 +54,7 @@ let problems = [
 	{
 		"title": "Variance",
 		"description": "my variance must be high the way i keep missing my expectations",
-		"latex": String.raw`\mathrm{Var}(X) = \mathbb E \left[(X-\mathbb E [X])^2\right] = \mathbb E [X^2] - \left(\mathbb E [X]\right) ^2`
+		"latex": String.raw`\mathrm{Var}(X) = \mathbb E [(X-\mathbb E [X])^2] = \mathbb E [X^2] - (\mathbb E [X]) ^2`
 	},
 	{
 		"title": "Standard deviation",
