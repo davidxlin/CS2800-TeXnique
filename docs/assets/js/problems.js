@@ -79,7 +79,7 @@ let problems = [
 	{
 		"title": "Central Limit Theorem",
 		"description": "i'm not sure if this is a theorem or a law but it sure is central to my life",
-		"latex": String.raw`\frac{\bar X - \mu}{\sigma/\sqrt n} \xrightarrow{d} N(0,1)`
+		"latex": String.raw`\frac{\bar X - \mu}{\sigma/\sqrt n} \overset{d}\to N(0,1)`
 	}, 
 	{
 		"title": "Correlation",
