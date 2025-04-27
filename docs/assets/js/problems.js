@@ -34,7 +34,7 @@ let problems = [
 	{
 		"title": "The law of total probability",
 		"description": "life is a sum of conditional dissapointments",
-		"latex": String.raw`\Pr(B) = \sum_{i=1}^n \Pr(B|A_i)`
+		"latex": String.raw`\Pr(B) = \sum_{i=1}^n \Pr(B|A_i)\Pr(A_i)`
 	},
 	{
 		"title": "Bayes' theorem",
@@ -69,11 +69,36 @@ let problems = [
 	{
 		"title": "Chebyshev's Inequality",
 		"description": "leon's variance must be high bc i can't bound him falling under my expectations",
-		"latex": String.raw`\Pr\left(|X-\mathbb E [X]|\ge \beta\right) \leq \frac{\mathrm{Var}(X)}{\beta^2}`
+		"latex": String.raw`\Pr (|X-\mathbb E [X]|\ge \beta ) \leq \frac{\mathrm{Var}(X)}{\beta^2}`
 	},
 	{
 		"title": "Hoeffding's Inequality",
 		"description": "extremely useful unlike myself",
 		"latex": String.raw`\Pr(X-\mathbb E[X] \geq t) \leq \exp \left(-\frac{2t^2}{\sum_{i=1}^n (b_i-a_i)^2}\right)`
+	}, 
+	{
+		"title": "Central Limit Theorem",
+		"description": "i'm not sure if this is a theorem or a law but it sure is central to my life",
+		"latex": String.raw`\frac{\bar X - \mu}{\sigma/\sqrt n} \xrightarrow{d} N(0,1)`
+	}, 
+	{
+		"title": "Correlation",
+		"description": "is the number of ed questions i answer correlated with my inability to find a significant other?",
+		"latex": String.raw`\mathrm{Corr}(X,Y) = \frac{\mathrm{Cov}(X,Y)}{\sigma_X\sigma_Y}`
+	}, 
+	{
+		"title": "Covariance",
+		"description": "nobody wants to be covariant with me :(",
+		"latex": String.raw`\mathrm{Cov}(X,Y) = \mathbb E[(X-\mathbb E[X])(Y-\mathbb E[Y])]`
+	},
+	{
+		"title": "Joint distribution",
+		"description": "i need a joint to get through this class",
+		"latex": String.raw`f_{X,Y}(x,y) = \frac{\partial^2}{\partial x\partial y}F_{X,Y}(x,y)`
+	}, 
+	{
+		"title": "Product of Independent Random Variables",
+		"description": "so convinient i can use this to prove my independence from my friends",
+		"latex": String.raw`\mathbb E[XY] = \mathbb E[X]\mathbb E[Y]`
 	}
 ];
